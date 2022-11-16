@@ -100,7 +100,7 @@ $experience = [
             <h6 class="w3-text-teal">
                 <i class="fa fa-calendar fa-fw w3-margin-right"></i>
                 <?php echo $experience[$i]['startWork']; ?> - 
-                <?php if (i == 0): ?>
+                <?php if ($i == 0): ?>
                     <span class="w3-tag w3-teal w3-round">
                         <?php echo $experience[$i]['endWork']; ?>
                     </span>
