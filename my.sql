@@ -14,8 +14,8 @@ INSERT INTO CLASSMATES VALUES (0003, 'Ирина', 20, 'Орел');
 INSERT INTO CLASSMATES VALUES (0004, 'Алексей', 47, 'Москва');
 INSERT INTO CLASSMATES VALUES (0005, 'Петр', 29, 'Москва');
 INSERT INTO CLASSMATES VALUES (0006, 'Иван', 30, 'Москва');
-INSERT INTO CLASSMATES VALUES (0007, 'Мария', 24, 'Омск');
+INSERT INTO CLASSMATES VALUES (0007, 'Мария', 18, 'Москва');
 INSERT INTO CLASSMATES VALUES (0008, 'Наталья', 25, 'Волгоград');
 
 -- fetch 
-SELECT NAME FROM CLASSMATES WHERE address = 'Москва' AND age > 18 AND age < 30
+SELECT NAME FROM CLASSMATES WHERE address = 'Москва' AND age >= 18 AND age < 30
